@@ -72,7 +72,7 @@ $activities      = $pdo->query("SELECT * FROM activities ORDER BY display_order 
 
           <!-- MEDIA DROPDOWN -->
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropdown-toggle">MEDIA<span class="arrow"></span></a>
+            <!-- <a href="javascript:void(0)" class="dropdown-toggle">MEDIA<span class="arrow"></span></a> -->
             <ul class="submenu">
               <?php foreach ($nav_items['media'] ?? [] as $item): ?>
                 <li><a href="<?= htmlspecialchars($item['url']) ?>" target="<?= htmlspecialchars($item['target']) ?>"><?= htmlspecialchars($item['title']) ?></a></li>
