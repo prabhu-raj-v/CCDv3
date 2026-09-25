@@ -206,11 +206,18 @@ $activities      = $pdo->query("SELECT * FROM activities ORDER BY display_order 
         </div>
       </div>
 
-      <!-- Media Showcase Wrapper -->
-      <div class="media-frame">
-        <div class="glow-orb"></div>
-        <img class="action-figure2" src="images/qr.png" alt="Portal QR" loading="lazy">
-      </div>
+    <div class="media-frame">
+  <div class="glow-orb"></div>
+  
+  <!-- Main image (put your actual figure image path here) -->
+  <img class="action-figure2" src="images/qr.png" alt="Action Figure Model" loading="lazy">
+  
+  <!-- The popup QR code -->
+  <div class="qr-popup">
+    <img class="qr-code-img" src="images/nqr.png" alt="QR Code">
+    <span class="qr-caption">Scan to Preview</span>
+  </div>
+</div>
 
     </div>
   </section>
