@@ -214,8 +214,7 @@ $activities      = $pdo->query("SELECT * FROM activities ORDER BY display_order 
   
   <!-- The popup QR code -->
   <div class="qr-popup">
-    <img class="qr-code-img" src="images/nqr.png" alt="QR Code">
-    <span class="qr-caption">Scan to Preview</span>
+    <img class="qr-code-img" src="images/Social media QR.png" alt="QR Code">
   </div>
 </div>
 
